@@ -93,7 +93,7 @@ if (cn.WORKTYPE == 'private') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsAsena',
+              caption: 'Suport by Sohuman folow Ig 4anto0',
             })
           })
           .catch(
@@ -167,7 +167,7 @@ else if (cn.WORKTYPE == 'public') {
             })
 
             await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-              caption: 'Made by WhatsAsena',
+              caption: 'Suport by Sohuman folow ig 4anto0',
             })
           })
           .catch(
