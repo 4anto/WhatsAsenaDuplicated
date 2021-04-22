@@ -16,7 +16,7 @@ const Lang = Language.getString('conventer');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 't', fromMe: true, desc: Lang.JSALAM_DESC}, (async (message, match) => {  
+    Asena.addCommand({pattern: 'vs', fromMe: true, desc: Lang.JSALAM_DESC}, (async (message, match) => {  
         await message.sendMessage('*WAALAIKUMSALAM*');
     }));
 
@@ -913,7 +913,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 't', fromMe: false, desc: Lang.JSALAM_DESC}, (async (message, match) => {    
+    Asena.addCommand({pattern: 'vs', fromMe: false, desc: Lang.JSALAM_DESC}, (async (message, match) => {    
 
         await message.sendMessage('*WAALAIKUMSALAM*');
 
